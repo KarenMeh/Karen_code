@@ -1,0 +1,918 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 580vh;
+    background-image: linear-gradient(rgba(220, 220, 220, 0.808),rgba(39, 39, 39, 0.605)),url("img/bg.jpg")  ;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    color: #000000;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    text-transform: uppercase;
+    font:bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(121, 121, 121);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+.content{
+    background-color: #646565;
+    margin: 90px;
+    margin-top: 20px;
+    padding-bottom: 15%;
+    padding-top: 2px ;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(183, 183, 183, 0.808),rgba(65, 64, 64, 0.605));
+    filter: brightness(20px);
+    border: 6px salmon;
+    
+}
+.content img{
+    max-width: 35%;
+    padding: 20px;
+    position: absolute;
+    margin-left: 45%;
+    border-radius: 20%;
+    margin-top: 40px;
+    border: 5px solid #ffffff;
+  
+}
+.content .text{
+    padding: 50px;
+    margin-right: 50%;
+    color: white;
+}
+.content .me{
+
+   
+    margin: 20px;
+    text-align: left;
+    color: rgb(233, 233, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+   
+}
+.content .about{
+    
+    margin: 20px;
+    padding-top: 20px;
+    text-align: left;
+    text-indent: 59px;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: justify;
+    
+}
+
+.banner1{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(220, 220, 220, 0.808),rgba(39, 39, 39, 0.605)),url("img/bg.jpg")  ;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar1{
+    width: 85%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    color: #000000;
+
+}
+
+@media screen and (max-width: 760px){
+    .navbar{
+        width: 100%;
+        margin: auto;
+        padding: 25px 0;
+        display: flex;
+        padding-bottom: 5px;
+        align-items: center;
+        justify-content: space-between ;
+        font-size: 7px; 
+    }
+    .content{
+        background-color: #646565;
+        margin: 20px;
+        margin-top: 20px;
+        padding-bottom: 0%;
+        padding-top: 2px ;
+        border-radius: 20px;
+        background-image: linear-gradient(rgba(183, 183, 183, 0.808),rgba(65, 64, 64, 0.605));
+        filter: brightness(20px);
+        border: 6px salmon;
+        
+    }
+    .content img{
+        max-width: 40%;
+        padding: 10px;
+        position: absolute;
+        margin-left: 45%;
+        border-radius: 20%;
+        margin-top: 40px;
+        border: 5px solid #ffffff;
+        margin-top: 80px;
+      
+    }
+    .content .text{
+        padding: 20px;
+        color: rgb(58, 58, 58);
+    }
+    .content .me{
+        margin: 10px;
+        text-align: left;
+        color: rgb(62, 62, 62);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-size: 25px;
+       
+    }
+    .content .about{
+        text-align: center;
+        margin: 5px;
+        padding-top: 20px;
+        text-indent: 20px;
+        color: whitesmoke;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: 2;
+        text-align:justify
+        
+    }
+}
+
+/* ---SKILLS */
+
+.content1{
+    margin: 90px;
+    margin-top: 20px;
+    padding-bottom: 15%;
+    padding-top: 2px ;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(150, 150, 150, 0.808),rgba(139, 139, 139, 0.605));
+    filter: brightness(20px);
+    border: 6px salmon;
+}
+  
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(183, 183, 183, 0.808),rgba(65, 64, 64, 0.605));
+}
+
+.b-section{
+    width: 100%;
+    
+}
+
+.b-section .section-content{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.b-section .section-content .title{
+
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+   
+}
+
+  
+
+.b-section .section-content .title p{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:10px ;
+    color: aliceblue;
+   
+    
+}
+
+.b-section .section-content .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+    
+}
+
+.b-section .section-content .cards .card{
+    width: 100%;
+    /*backgrou/nd-color: rgba(119, 244, 244, 0.532);*/
+    backdrop-filter: blur(6px);
+    position: relative;
+    background-image: linear-gradient(rgba(91, 91, 91, 0.808),rgba(50, 49, 49, 0.605)),url("img/bg.jpg")  ;
+    box-shadow:  10px 10px 5px rgb(54, 54, 54);
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.b-section .section-content .cards .card img{
+    width: 40%;
+    height: 140px;
+    margin-left: 75px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 5px solid rgb(255, 255, 255);
+    margin-top: 20px;
+
+}
+.b-section .section-content .cards .card .article{
+    padding: 15px 20px;
+
+}
+
+.b-section .section-content .cards .card .article h4{
+    font-size: 24px;
+    color: rgb(76, 76, 76);
+    
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.b-section .section-content .cards .card .article p{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.content2{
+   
+    margin: 90px;
+    margin-top: 20px;
+    padding-bottom: 2%;
+    padding-top: 2px ;
+    border-radius: 20px;
+
+    border: 6px salmon;
+}
+.title h2{
+    color: rgb(64, 64, 64);
+    font-size: 50px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+
+}
+
+@media screen and (max-width: 760px){
+    .b-section .section-content .cards{
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 0px;
+    }
+
+    
+    .b-section .section-content .title h2{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        animation: glow 1s ease-in-out infinite alternate;
+        border-radius: 20px;
+        color: #717171;
+      }
+
+.banner{
+    width: 100%;
+    height: 900vh;
+    background-image: linear-gradient(rgba(220, 220, 220, 0.808),rgba(39, 39, 39, 0.605)),url("img/bg.jpg")  ;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+
+    
+}
+
+}
+
+/* GALLERY*/
+
+.gallery{
+    margin-bottom: 100px; 
+    padding-top: px;
+    
+    color: #ffffff;
+   
+}
+
+.gallery input{
+    display: none;
+}
+
+.gallery .gallery-container{
+    width: 100%;
+    height: 200%;
+    text-align: center;
+
+}
+
+.gallery h1{
+    margin: 20px;
+    padding-top: 20px;
+    padding: 10px;
+    color: rgb(88, 87, 87);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    text-align: justify;
+    text-align: center;
+    font-size: 50PX;
+   
+}
+
+  
+  
+
+.gallery h1::before{
+    content:""; 
+    position: absolute; 
+    width: 100px; 
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.gallery .top-content{
+    background-color: rgba(70, 70, 70, 0.783);
+    backdrop-filter: blur(6px) ;
+    width:90%;
+    margin:0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 45px;
+}
+
+.gallery h3{
+    height: 100%;     
+    line-height: 60px; 
+    padding: 0 50px;
+    background-color: rgba(255, 255, 255, 0.469);
+    color: white;
+    border-radius: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gallery label{
+    display: inline-block;
+    height: 100%;
+    margin: 70px; 
+    line-height: 60px; 
+    font-size: 18px; 
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    cursor: pointer;
+    transition: color .5s;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.gallery h3:hover{
+    color: rgb(4, 4, 4);
+}
+
+.gallery label:hover{
+    color: rgb(0, 0, 0);
+}
+
+.gallery .photo-gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+   
+}
+
+
+.gallery .pic{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.gallery .pic img{
+    width: 100%;
+    height: 100%; 
+    border-radius: 10px; 
+    transition: .5s;
+}
+
+/*  may gaguwa nga dulom every pictures*/
+.gallery .pic::before{
+    content: "PHOTO GALLERY";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top:-100px; 
+    opacity: 0; 
+    transform:.3s;
+    transition-delay: .2s; 
+    z-index: 1;
+}
+
+.gallery .pic::after{ 
+    content:"";
+    position: absolute;
+    color: aliceblue;
+    bottom: 0;
+    left: 0;
+    border-radius:10px;
+    width: 100%; 
+    height: 0;
+    background-color: rgb(0, 0, 0,.4);
+    transition: .3s;
+}
+
+.gallery .pic:hover::after{
+    height: 100%;
+}
+
+.gallery .pic:hover::before{ 
+    margin-top: 0; 
+    opacity: 1;
+}
+
+.gallery #check1:checked ~ .gallery-container .photo-gallery .pic{
+    opacity: 1; 
+    transform:scale(1); 
+    position: relative; 
+    transition: .5s;
+}
+
+.gallery #check2:checked ~ .gallery-container .photo-gallery .Events{
+    opacity: 1; 
+    transform:scale(1); 
+    position: relative;
+}
+.gallery #check2:checked ~ .gallery-container .photo-gallery .Bonding, 
+.gallery #check2:checked ~ .gallery-container .photo-gallery .Outing{ 
+    opacity: 1;
+    transform:scale(0); 
+    position: absolute;
+    transition: Os;
+}
+
+.gallery #check3:checked ~ .gallery-container .photo-gallery .Bonding{
+    opacity: 1;     
+    transform:scale(1); 
+    position: relative;
+}
+
+.gallery #check3:checked ~ .gallery-container .photo-gallery .Events, 
+.gallery #check3:checked ~ .gallery-container .photo-gallery .Outing{ 
+    opacity: 1; 
+    transform:scale(0); 
+    position: absolute; 
+    transition: Os;
+}
+
+
+@media screen and (max-width: 992px){
+
+    .gallery.photo-gallery{
+        width:60%; 
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .gallery h1{
+        font-weight: normal;
+        position: relative;
+        font-size: 30px;
+        margin-top: 0;
+
+    }   
+
+    .gallery h3{
+        display: none;
+        color: rgb(255, 255, 255);
+    }
+
+
+    .gallery.photo-gallery{
+        width: 50%;
+        margin: auto; 
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    .gallery label{
+        display: inline-block;
+        height: 100%;
+        margin: 0 px; 
+        line-height: 60px; 
+        font-size: 15px; 
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: color .5s;
+        margin-left: 18px;
+        padding: 25px;
+      
+    }
+.gallery .photo-gallery{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+   
+
+}
+.gallery{
+    margin-bottom: 10px; 
+    padding-top: 10px;
+    
+   
+}
+.gallery .top-content{
+    background-color: rgba(111, 111, 111, 0.598);
+    width:90%;
+    margin:0 auto 20px auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgb(206, 214, 214);
+    border-radius: 15px;
+}
+.gallery .gallery-container{
+    width: 100%;
+    height: 180%;
+    text-align: center;
+
+}
+}
+
+/*footer*/
+.footer-basic {
+    padding: 60px 0;
+    background: rgb(88, 88, 96);
+    color: #000000;
+
+}
+
+.footer-basic .social{
+    text-align: center;
+}
+
+.footer-basic .social a{
+    font-size: 50px;
+    color: #fafafa;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 8px;
+    opacity: 0.75;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  
+.footer-basic .social a:hover{
+    opacity: 0.9;
+    color: #000000;
+}
+
+.footer-basic .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff7f7;
+    margin-bottom: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#myBtn{
+    display: none;
+    position: fixed;
+    padding-left: 15px;
+    bottom: 10px;
+    right: 5px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#myBtn:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+/*  experiemce*/
+.content3{
+   
+    margin: 90px;
+    margin-top: 20px;
+    padding-bottom: 15%;
+    padding-top: 2px ;
+    border-radius: 20px;
+    filter: brightness(20px);
+    border: 6px salmon;
+}
+  
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(183, 183, 183, 0.808),rgba(65, 64, 64, 0.605));
+}
+
+.b-section1{
+    width: 100%;
+    
+}
+
+.b-section1 .section-content1{
+ margin-right:19%;
+ 
+}
+
+.b-section1 .title1{
+
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  
+}
+
+  
+
+.b-section1 .section-content1 .title1 p{
+    font-size: 30px;
+    margin-top:10px ;
+    color: aliceblue;
+   
+    
+}
+
+.b-section1 .section-content1 .cards1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 17px;
+    background-image: linear-gradient(rgba(63, 63, 63, 0.808),rgba(139, 139, 139, 0.605));
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 120% ;
+    border-radius: 30px;
+    margin-right: 100%;
+    padding-bottom: 0;
+    padding: 20px;
+    
+}
+
+.b-section1 .section-content1 .card1s .card1{
+    width: 100%;
+    backdrop-filter: blur(6px);
+    position: absolute;
+    background-color: rgba(187, 187, 187, 0.346);
+    box-shadow:  10px 10px 5px rgb(54, 54, 54);
+    padding-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.b-section1 .section-content1 .cards1 .card1 img{
+    width: 55%;
+    height: 140px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 5px solid rgb(255, 255, 255);
+    margin-top: 20px;
+
+}
+.b-section1 .section-content1 .cards1 .card1 .article1{
+    padding: 15px 20px;
+
+}
+
+.b-section1 .section-content1 .cards1 .card1 .article1 h4{
+    font-size: 24px;
+    color: rgb(76, 76, 76);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.b-section1 .section-content1 .cards1 .card1 .article1 p{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.content3{
+   
+    margin: 90px;
+    margin-top: 20px;
+    padding-bottom: 2%;
+    padding-top: 2px ;
+    border-radius: 20px;
+
+    border: 6px salmon;
+}
+.title1 h2{
+    color: rgb(64, 64, 64);
+    font-size: 50px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    padding-top: 70px;
+}
+
+
+@media screen and (max-width: 760px){
+    
+    .content3{
+        margin: 20px;
+        margin-top: 20px;
+        padding-bottom: 15%;
+        padding-top: 2px ;
+        border-radius: 20px;
+        filter: brightness(20px);
+        border: 6px salmon;
+        margin-right: 20px;
+    }
+    .b-section1 .section-content1{
+        margin-right:25%;
+        
+       }
+       
+       .title1 h2{
+        color: rgb(64, 64, 64);
+        padding-top: 70px;
+        font-size: 40px ;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: 5px;
+    }
+    .b-section1 .section-content1 .cards1 .card1 img{
+        width: 50%;
+        height: 50px;
+        margin-left: 10px;
+        border-radius: 15px;
+        padding: 10px;
+        border: 2px solid rgb(255, 255, 255);
+        margin-top: 20px;
+    
+    }
+    .b-section1 .section-content1 .cards1 .card1 .article1{
+        padding: 5px;
+    
+    
+    }
+    
+    .b-section1 .section-content1 .cards1 .card1 .article1 h4{
+        font-size: 10px;
+        color: rgb(76, 76, 76);
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        border-radius: 20px;
+        padding: 3px;
+        
+    }
+    
+
+
+    .b-section1 .section-content1 .cards1 .card1 .article1 p{
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+        margin: 10px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-indent: 15px;
+        padding:0;
+        border-radius: 10px;
+    }
+    
+
+    
+        
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
